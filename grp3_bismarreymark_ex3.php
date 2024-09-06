@@ -7,18 +7,19 @@
     <title>comment page</title>
 </head>
 <body>
-<h2>Write here</h2>
+
 <main>
+<h1>TEAM 3 COMMENT PAGE</h1>
 <form action = "process.php" method = "post"> 
 
-<textarea rows="30" cols="50" name="comment" value="1"> 
-<?php echo $current; ?>
-</textarea>
+<textarea class="textarea" rows="6" cols="50" name="textarea" value="" placeholder= "Enter a message.."><?php echo $current; ?></textarea>
+<input id="button" type="Submit">
 
-
-
-<input type="Submit">
 </form>
+
+<div>
+<a href="log.tt">Text file</a>
+</div>
 
 <?php include('condition.php');
 ?>
