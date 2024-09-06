@@ -1,6 +1,6 @@
 <?php
 
-$comment = $_POST["comment"];  //$_POST contains an array of variables received via the HTTP POST method.
+$comment = $_POST["textarea"];  //$_POST contains an array of variables received via the HTTP POST method.
 $file = "log.tt";  //declaring variable, $file as "log.tt" file.
 
 
@@ -8,6 +8,6 @@ $file = "log.tt";  //declaring variable, $file as "log.tt" file.
 file_put_contents($file, $comment);
 
 //returns to main page.
-header('location: http://localhost:8889/exercise%202/folder%203/main.php')
+header('location: http://localhost:8889/rootfile/folder%203/grp3_garciadarryl_ex3.php') //change this by copying your own file directory.
 
 ?>
